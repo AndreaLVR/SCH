@@ -99,7 +99,7 @@ function trustUserAndProceed(username,callback) {
 }
 
 function updateCipherKey() { 
-	cipher_key = aes.crypto_random_string(16)
+	cipher_key = crypto_random_string(16)
 	//console.log("setting global_set_time -> "+new Date(Date.now()))
 	redisClient.setex("global_set_time",60*CIPHERKEY_LIFETIME,new Date(Date.now()));	
 	redisClient.setex("cipher_key",60*CIPHERKEY_LIFETIME,cipher_key);  
@@ -166,5 +166,4 @@ s.listen(port,function(){
 	console.log(`\nWorker ${process.pid} started Authorization Server on port ${port}\n`);
 	updateCipherKey();
 });	
-
 
