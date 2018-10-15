@@ -59,7 +59,7 @@ function concurrentRedisInsert(disposableKey,callback) {
 }
 	
 function insertDisposableClientKey(callback) {
-	let disposableKey = aes.crypto_random_string(16)
+	let disposableKey = crypto_random_string(16)
 	let disposableKeyBuffer = new Buffer(disposableKey)
 	
 	concurrentRedisInsert(disposableKey,function(data) {
