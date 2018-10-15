@@ -1,4 +1,4 @@
 # SCH
 Secure Content over HTTP
 
-![alt tag](https://github.com/D35m0nd142/SCH/blob/master/diagram.png)
+![alt tag](https://github.com/AndreaLVR/SCH/blob/master/diagram.png)
