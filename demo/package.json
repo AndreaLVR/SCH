@@ -1,0 +1,15 @@
+{
+  "name" : "SCH_Servers",
+  "version" : "0.1.0",
+  "dependencies": {
+  	"fs" : "^0.0.1-security",
+  	"http" : "^0.0.0",
+  	"https" : "^1.0.0",
+  	"socket.io" : "^2.1.1",
+  	"redis" : "^2.8.0",
+  	"crypto-random-string" : "^1.0.0",
+  	"is-json" : "^2.0.1",
+    "crypto" : "^1.0.1"
+  }
+}
+
