@@ -17,7 +17,7 @@ success   = 0
 times     = []
 concurrent_threads = 1
 barrier = Barrier(concurrent_threads+1)
-slave_url = "https://localhost:8081"
+slave_url = "https://192.168.1.140:8081"
 
 
 # {"userToken":"..","content":"envelope":"..","payload":{..}}
