@@ -13,9 +13,9 @@ import sys
 warnings.filterwarnings("ignore")
 
 logs = []
-#log_file = open("/media/sf_interest_shared/FSH/fsh.log","w")
-master_url = "https://localhost:8090"
-slave_url  = "http://localhost:8081"
+#log_file = open("/media/shared/FSH/fsh.log","w")
+master_url = "https://192.168.1.140:8090"
+slave_url  = "http://192.168.1.140:8081"
 
 def requestkey_to_master(thread_id):
 	data = {'username':'Thread0','password':'Pass0'}
